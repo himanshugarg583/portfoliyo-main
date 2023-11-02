@@ -199,11 +199,18 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: url("../img/pic2.jpg") top center;
+
+  /* background-image:url("../img/pic2.jpg") top center; */
+  /* background: fixed; */
+  /* background-color: #040b14; */
+  /* background: url("../img/pic2.jpg") top center; */
   background-size: cover;
 }
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: url("../img/pic2.jpg");
+  background-size: cover;
+  /* background: rgba(5, 13, 24, 0.3); */
   position: absolute;
   bottom: 0;
   top: 0;
